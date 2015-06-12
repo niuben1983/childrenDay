@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta content="telephone=no" name="format-detection">
+    <title>六一摇一摇</title>
+    <link href="../css/css.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<script>document.querySelector('html').style.fontSize = (document.body.clientWidth/320*16+'px');</script>
+<nav>
+    <ul>
+        <li class="n_challenge"><a href="tz.html">我要挑战</a></li>
+        <li class="n_advance"><a href="yg.html">精彩预告</a></li>
+        <li class="n_draw"><a href="cj.html" class="on">我要抽奖</a></li>
+    </ul>
+</nav>
+
+<div class="outBorder">
+    <div class="yg cj" id="cj">
+        <header class="title">
+            <div class="logo"></div>
+            <dl>
+                <dt>我要抽奖</dt>
+                <dd></dd>
+            </dl>
+        </header>
+<!-- 抽奖结束 -->
+        <div class="cj_end js_child" style="display: none;">
+            <p class="banner"></p>
+            <p class="logo"></p>
+            <p class="text">再次感谢您的参与。</p>
+        </div>
+<!-- 开始抽奖 -->
+        <div class="cj_start js_child" style="display: ;">
+            <p class="banner"></p>
+            <a href="#" class="btn js_start">开始抽奖</a>
+        </div>
+<!-- 中奖了         -->
+        <div class="cj_zjl js_child" style="display: none;">
+            <p class="abnner"></p>
+            <p class="exp">此处为奖品说明此处为奖品说明此处为奖品说明此处为奖品说明此处为奖品说明此处为奖品说明此处为奖品说明此处为奖品说明此处为奖品说明</p>
+            <div class="form">
+                <p class="head">请完整填写个人信息提交后查看领奖方式</p>
+                <ul>
+                    <li><input type="text" name="" value="" class="js_name" placeholder="请输入姓名"></li>
+                    <li><input type="text" name="" value="" class="js_mobile" placeholder="请输入电话"></li>
+                </ul>
+                <p class="tips"></p>
+                <a class="btn js_btn">提&nbsp;交</a>
+            </div>
+        </div>  
+<!-- 领奖信息         -->
+        <div class="cj_ljxx js_child" style="display: none;">
+            <div class="head">请截屏保存本页面并仔细阅读以下说明</div>
+            <div class="exp"><img src="../img/cj_icon3.png" class="js_prize_pic" alt=""><p class="js_prize_name">此处为奖品说明此处为奖品说明此处为奖品</p><p class="js_prize_take">说明此处为奖品说明此处为奖品说明此处为奖品说明此处为奖品说明此处为奖品说明此处为奖品说明</p></div>
+            <a class="btn js_start">继续抽奖</a>
+        </div>          
+<!-- 没中奖 -->
+        <div class="cj_mzj js_child" style="display: none;">
+            <p class="text1">没中奖别灰心<br>更多大奖等着你</p>
+            <p class="banner"></p>
+            <p class="text2">继续抽奖，好礼赢不停！</p>
+            <a href="#" class="btn js_start">继续抽奖</a>
+        </div>        
+    </div>    
+</div>
+
+<script src="http://yaotv.qq.com/shake_tv/include/js/lib/zepto.1.1.4.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="../js/main.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>

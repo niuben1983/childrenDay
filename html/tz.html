@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta content="telephone=no" name="format-detection">
+    <title>六一摇一摇</title>
+    <link href="../css/css.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<script>document.querySelector('html').style.fontSize = (document.body.clientWidth/320*16+'px');</script>
+<nav>
+    <ul>
+        <li class="n_challenge"><a href="tz.html" class="on">我要挑战</a></li>
+        <li class="n_advance"><a href="yg.html">精彩预告</a></li>
+        <li class="n_draw"><a href="cj.html">我要抽奖</a></li>
+    </ul>
+</nav>
+
+<div class="outBorder">
+    <div class="tz">
+        <header class="title"></header>
+        <div class="tz_upload" id="tz_upload">
+            <div class="intro" style="display: none;">
+                <h3></h3>
+                <ul>
+                    <li>
+                        <img src="../img/tz_img1.jpg" alt="" class="pic">
+                        <img src="../img/tz_icon1.png" alt="" class="tips">
+                        <p>没亲上！</p>
+                    </li>
+                    <li>
+                        <img src="../img/tz_img2.jpg" alt="" class="pic">
+                        <img src="../img/tz_icon2.png" alt="" class="tips">
+                        <p>亲上啦！</p>
+                    </li>
+                </ul>
+                <p class="text">您所上传的照片和个人信息仅用于本次吉尼斯世界纪录的申请和宣传活动,我们承诺不会泄露您的个人信息。</p>
+            </div>
+            <div class="form">
+                <form action="" method="get" accept-charset="utf-8">
+                    <ul id="upLoadPhoto">
+                        <li class="photo"><img src="../img/tz_img3.jpg" alt=""></li>
+                        <li class="photo_upload"><label>上传照片<input type="file" name="upload" value="" class="js_file" placeholder="上传照片"></label></li>
+                        <li>
+                            <label class="name">宝贝姓名：<input type="text" name="" value="" class="js_name"></label>
+                            <label class="sex"><input type="radio" name="sex" value="男">男</label>
+                            <label class="sex"><input type="radio" name="sex" value="女">女</label>
+                        </li>
+                        <li>
+                            <label class="tel">手机：<input type="text" name="" value="" class="js_mobile"></label>
+                        </li>
+                        <li><label class="seding">六一寄语：<textarea name="sedingword" class="js_hope"></textarea></label></li>
+                        <li class="tips"></li>
+                        <li class="save"><a href="#" title="" class="js_btn">确认提交</a></li>
+                    </ul>
+                    
+                </form> 
+            </div>
+        </div>
+        <div class="tz_success" id="tz_success" style="display: none;">
+            <div class="link_banner"></div>
+            <div class="link_text">天视少儿艺术培训中心 糖心家族幼儿园恭喜您</div>
+            <div class="tz_upload_tips"></div>
+            <dl class="foot">
+                <dt>请关注5月31日 10点  天视多派少儿频道<br>《亲亲我的宝贝》  六一大型互动直播。</dt>
+                <dd>如果您想查看上传的亲亲照请登录<br>天津妈妈网www.tjmama.com  </dd>
+            </dl>
+        </div>
+    </div>    
+</div>
+
+<script src="http://yaotv.qq.com/shake_tv/include/js/lib/zepto.1.1.4.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="../js/main.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>
