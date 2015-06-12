@@ -1,5 +1,6 @@
 // 安装插件
-// sudo npm install gulp-jshint  gulp-sass gulp-concat gulp-uglify gulp-util gulp-rename gulp-cssmin gulp-imagemin gulp-replace md5-file imagemin-pngquant imagemin-jpegtran --save-dev
+// sudo npm install gulp-wrapper gulp-jshint  gulp-ruby-sass gulp-concat gulp-uglify gulp-util gulp-rename gulp-cssmin gulp-imagemin gulp-replace md5-file imagemin-pngquant imagemin-jpegtran --save-dev
+
 
 // 引入 gulp
 var gulp = require('gulp');
